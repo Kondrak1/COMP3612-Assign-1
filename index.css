@@ -1,0 +1,206 @@
+html,
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #171b26;
+    color: white;
+    padding: 12px 16px;
+}
+
+header h1 {
+    margin-right: auto;
+    text-align: left;
+}
+
+/*Prompt "How can I make part of a sentence a different colour?" in ChatGPT*/
+.header-accent {
+    color: #eab308;
+}
+
+header button {
+    margin-left: 8px;
+    background-color: #171b26;
+    color: white;
+    border: 1px solid #171b26;
+}
+
+header button:hover {
+    color: grey;
+    border: 1px solid #eab308;
+}
+
+header button.no-hover{
+    background-color: #35475c;
+    color: white;;
+}
+
+h1 {
+    text-align: left;
+}
+
+.hero {
+    position: relative;
+    min-height: 350px;
+    box-sizing: border-box;
+    padding: 75px 0 0 240px;
+    overflow: hidden;
+    background-color: #282e42;
+    color: white;
+}
+
+.hero h2,
+.hero p {
+    width: 292px;
+}
+
+.hero h2 {
+    margin: 0 0 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.hero p {
+    margin: 0 0 16px;
+    color: #aeb7cf;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero button {
+    padding: 8px 14px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #eab308;
+    color: #171b26;
+    font-size: 12px;
+}
+
+.hero design {
+    position: absolute;
+    bottom: 25px;
+    left: 700px;
+    color: #30374c;
+    font-size: 300px;
+    font-weight: bold;
+    letter-spacing: 70px;
+}
+
+.products {
+    padding: 28px 16px 24px;
+    border: 1px solid #e9e9eb;
+    background-color: #f4f5f8;
+    color: #171b26;
+}
+
+.products h2 {
+    margin: 0 0 22px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.product-card {
+    min-height: 238px;
+    border: 1px solid #d7d9df;
+    border-top: 2px solid #377f7a;
+    border-radius: 1px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card h2 {
+    margin: 0;
+    padding: 12px 16px 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product-card p,
+.product-card .button {
+    display: inline-block;
+    margin: 0;
+    padding: 4px 16px 0;
+    font-size: 12px;
+    line-height: 1.4;
+    border: 1px solid black;
+    margin-bottom: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.product-card p:hover,
+.product-card .button:hover {
+    color: white;
+    background-color: black;
+}
+
+.product-card img {
+    margin-top: 12px;
+}
+
+.product-card:hover {
+    border-color: #171b26;
+    border-top-color: #d6a900;
+}
+
+.why {
+    max-width: 50%;
+    margin-left: 32px;
+}
+
+footer {
+    padding: 24px 16px 10px;
+    background-color: #171b26;
+    color: #778097;
+    font-size: 12px;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.footer-columns section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-columns h2 {
+    margin: 0 0 10px;
+    color: #d6dae5;
+    font-size: 12px;
+}
+
+.footer-columns a {
+    margin-bottom: 6px;
+    color: #778097;
+    text-decoration: none;
+}
+
+.footer-columns a:hover {
+    color: white;
+}
+
+.copyright {
+    margin: 10px 0 0;
+    padding-top: 10px;
+    border-top: 1px solid #242b3b;
+    color: #4e586e;
+    font-size: 7px;
+}

@@ -1,0 +1,276 @@
+html,
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #171b26;
+    color: white;
+    padding: 12px 16px;
+}
+
+header h1 {
+    margin-right: auto;
+    text-align: left;
+}
+
+/*Prompt "How can I make part of a sentence a different colour?" in ChatGPT*/
+.header-accent {
+    color: #eab308;
+}
+
+header button {
+    margin-left: 8px;
+    background-color: #171b26;
+    color: white;
+    border: 1px solid #171b26;
+}
+
+header button:hover {
+    color: grey;
+    border: 1px solid #eab308;
+}
+
+header button.no-hover{
+    background-color: #35475c;
+    color: white;;
+}
+
+.hero {
+    position: relative;
+    min-height: 350px;
+    box-sizing: border-box;
+    padding: 75px 0 0 240px;
+    overflow: hidden;
+    background-color: #282e42;
+    color: white;
+}
+
+.hero h2,
+.hero p {
+    width: 292px;
+}
+
+.hero h2 {
+    margin: 0 0 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.hero p {
+    margin: 0 0 16px;
+    color: #aeb7cf;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero design {
+    position: absolute;
+    bottom: 25px;
+    left: 700px;
+    color: #30374c;
+    font-size: 300px;
+    font-weight: bold;
+    letter-spacing: 70px;
+}
+
+.story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    box-sizing: border-box;
+    min-height: 141px;
+    padding: 28px max(16px, calc((100% - 760px) / 2));
+    border-bottom: 1px solid #d7d9df;
+    background-color: #f4f5f8;
+    color: #171b26;
+}
+
+.story h1 {
+    align-self: center;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+.story p {
+    margin: 0;
+    color: #4e586e;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+.values h1 {
+    margin: 0 0 22px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.value-card {
+    padding: 20px;
+    border: 1px solid #d7d9df;
+    background: #f3f4f8;
+}
+
+.team {
+    box-sizing: border-box;
+    padding: 28px max(16px, calc((100% - 760px) / 2)) 20px;
+    background-color: #f3f4f8;
+    border: 1px solid #d7d9df;
+}
+
+.team h1 {
+    margin: 0 0 8px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.team p {
+    max-width: 320px;
+    margin: 0 0 20px;
+    color: #4e586e;
+    font-size: 9px;
+    line-height: 1.35;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.team-member h2 {
+    margin: 0 0 2px;
+    color: #171b26;
+    font-size: 10px;
+}
+
+.team-member p {
+    margin: 0 0 5px;
+    color: #4e586e;
+    font-size: 8px;
+    line-height: 1.35;
+}
+
+.journey {
+    box-sizing: border-box;
+    padding: 28px max(16px, calc((100% - 760px) / 2)) 30px;
+    background-color: white;
+    color: #171b26;
+}
+
+.journey h1 {
+    margin: 0 0 18px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+.journey-timeline {
+    position: relative;
+    display: grid;
+    gap: 20px;
+    max-width: 620px;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+.journey-line {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 3px;
+    width: 1px;
+    background-color: #d7d9df;
+}
+
+.journey-event {
+    position: relative;
+}
+
+.journey-dot {
+    position: absolute;
+    top: 2px;
+    left: -34px;
+    width: 9px;
+    height: 9px;
+    border: 3px solid white;
+    /*"How can I make buttons into a circle in CSS" ChatGPT*/
+    border-radius: 50%;
+    background-color: #d6a51d;
+    box-shadow: 0 0 0 1px #d7d9df;
+}
+
+.journey-date {
+    color: #4e586e;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+.journey-description {
+    margin: 8px 0 0;
+    color: #35475c;
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.contact {
+    background-color: #f3f4f8;
+    border: 1px solid #d7d9df;
+}
+
+footer {
+    padding: 24px 16px 10px;
+    background-color: #171b26;
+    color: #778097;
+    font-size: 12px;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.footer-columns section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-columns h2 {
+    margin: 0 0 10px;
+    color: #d6dae5;
+    font-size: 12px;
+}
+
+.footer-columns a {
+    margin-bottom: 6px;
+    color: #778097;
+    text-decoration: none;
+}
+
+.footer-columns a:hover {
+    color: white;
+}
+
+.copyright {
+    margin: 10px 0 0;
+    padding-top: 10px;
+    border-top: 1px solid #242b3b;
+    color: #4e586e;
+    font-size: 7px;
+}
