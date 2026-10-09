@@ -168,8 +168,8 @@ header button.no-hover{
     width: 100%;
     height: auto;
     margin-bottom: 8px;
-    max-height: 70%;
-    max-width: 70%;
+    max-height: 200px;
+    max-width: 200px;
     border: 1px solid #d7d9df;
 }
 
