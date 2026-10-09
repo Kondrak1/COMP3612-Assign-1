@@ -1,3 +1,7 @@
+/* https://www.dreamstime.com/photos-images/random-guy-disbelief.html */
+/* https://www.magnific.com/free-photos-vectors/random-guy*/
+/* https://www.gettyimages.ca/videos/random-guy*/
+
 html,
 body {
     margin: 0;
@@ -158,6 +162,15 @@ header button.no-hover{
     margin: 0 0 2px;
     color: #171b26;
     font-size: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    max-height: 150px;
+    max-width: 220px;
+    border: 1px solid #d7d9df;
 }
 
 .team-member p {
